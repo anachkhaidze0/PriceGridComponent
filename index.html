@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+  <title>Frontend Mentor | Single Price Grid Component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-[#e5eff5] w-screen h-full">
+  <main class="w-screen h-screen">
+    <div class="flex justify-center items-center h-full">
+      <div class="w-4/5 shadow-2xl lg:w-1/3">
+        <div class="bg-white p-5 space-y-4 rounded-t-md lg:p-6">
+          <h2 class="text-[#2ab2af] font-bold text-lg">Join our community</h2>
+          <p class="text-[#c0df34] font-semibold text-sm opacity-90">30-day, hassle-free money back guarantee</p>
+          <p class="text-[#98a6bd] text-xs opacity-90 leading-relaxed">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+        <div class="lg:flex lg:w-full">
+          <div class="bg-[#2ab2af] p-5 lg:w-1/2 lg:rounded-bl-md lg:p-6">
+            <div class="space-y-1">
+              <h2 class="text-white font-semibold mb-3">Monthly Subscription</h2>
+              <p class="text-white text-3xl font-bold flex"> $29 <span class="text-white text-sm opacity-60 font-light self-center ml-2">per month</span></p>
+              <p class="text-white text-sm font-light opacity-80">Full access for less than $1 a day</p>
+            </div>
+            <div class="flex justify-center mt-6">
+              <button class="bg-[#c0df34] w-full py-2.5 rounded-md shadow-lg text-white text-sm">Sign Up</button>
+            </div>
+          </div>
+          <div class="bg-[#2ab2af] bg-opacity-80 p-5 space-y-3 rounded-b-md lg:w-1/2 lg:rounded-bl-none lg:p-6">
+            <h2 class="text-white font-semibold">Why Us</h1>
+            <p class="text-white text-xs opacity-70 leading-relaxed lg:leading-normal">Tutorials by industry experts <br> Peer & expert code review <br> Coding excersises <br> Access to our GitHub repos <br> Community forum <br> Flashcard decks <br> New videos every week</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="absolute w-full bottom-0">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
